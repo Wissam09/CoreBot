@@ -226,3 +226,5 @@ installModules().then(async () => {
     }
   }
 });
+
+client.login(processed.env.TOKEN)
